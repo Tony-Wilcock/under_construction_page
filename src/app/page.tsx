@@ -22,7 +22,7 @@ export default function Home() {
         >
           Emzy
         </h1>
-        <h2 className='text-2xl sm:text-[2rem] md:text-[2.5rem] font-semibold sm:tracking-[0.5em]'>
+        <h2 className='text-2xl sm:text-[2rem] md:text-[2.5rem] font-semibold tracking-[0.2em] sm:tracking-[0.5em]'>
           Aesthetics & Beauty
         </h2>
       </div>
