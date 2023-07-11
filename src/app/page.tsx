@@ -28,10 +28,14 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col items-center justify-center text-xs sm:text-base md:text-xl z-10'>
-        <p>Our brand new website is coming soon.</p>
+        <p>
+          Our brand new website is{' '}
+          <span className='font-bold'>coming soon</span>.
+        </p>
         <br />
         <p className=''>
-          In the meantime, why not follow us on
+          In the meantime, why not <span className='font-bold'>follow</span> us
+          on
           <span className='text-[#5383e2] font-bold cursor-pointer'>
             {' '}
             <Link
@@ -54,7 +58,7 @@ export default function Home() {
         </p>
         <br />
         <p>
-          You can also book an appointment on{' '}
+          You can also <span className='font-bold'>book an appointment</span> on{' '}
           <span className='text-black font-bold cursor-pointer'>
             <Link
               href='https://www.fresha.com/a/emzy-aesthetics-nurse-beauty-therapist-wigan-all-over-beauty-7-ladies-lane-cpuy2tce'
