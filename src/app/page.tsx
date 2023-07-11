@@ -10,7 +10,7 @@ export default function Home() {
         <Image
           src={EmzyLogo}
           alt='emzy logo'
-          className='object-contain w-2/3 opacity-20'
+          className='object-contain opacity-20 w-full landscape:h-full'
         ></Image>
       </div>
       <div className='flex flex-col items-center justify-center pt-10 z-10'>
@@ -18,11 +18,11 @@ export default function Home() {
           Welcome to
         </h2>
         <h1
-          className={`${waterfall.className} text-[7rem] sm:text-[12rem] leading-none`}
+          className={`${waterfall.className} text-[7rem] sm:text-[10rem] md:text-[12rem] leading-none`}
         >
           Emzy
         </h1>
-        <h2 className='text-2xl sm:text-[2.5rem] font-semibold tracking-[0.5em]'>
+        <h2 className='text-2xl sm:text-[2rem] md:text-[2.5rem] font-semibold sm:tracking-[0.5em]'>
           Aesthetics & Beauty
         </h2>
       </div>
