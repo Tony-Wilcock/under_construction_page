@@ -1,11 +1,13 @@
-import { waterfall } from './fonts';
+import { waterfall, merienda } from './fonts';
 import Link from 'next/link';
 import Image from 'next/image';
 import EmzyLogo from '/public/emzy-logo-transparent.png';
 
 export default function Home() {
   return (
-    <main className='w-full h-screen flex flex-col justify-between items-center bg-clr-bg text-clr-text'>
+    <main
+      className={`${merienda.className} w-full h-screen flex flex-col justify-between items-center bg-clr-bg text-clr-text`}
+    >
       <div className='absolute w-full h-screen flex items-center justify-center'>
         <Image
           src={EmzyLogo}
@@ -29,8 +31,8 @@ export default function Home() {
 
       <div className='flex flex-col items-center justify-center text-xs sm:text-base md:text-xl z-10'>
         <p>
-          Our brand new website is{' '}
-          <span className='font-bold'>coming soon</span>.
+          Our brand new website is currently under maintenance & will be{' '}
+          <span className='font-bold'>ready soon</span>!
         </p>
         <br />
         <p className=''>
@@ -58,7 +60,9 @@ export default function Home() {
         </p>
         <br />
         <p>
-          You can also <span className='font-bold'>book an appointment</span> on{' '}
+          Alternatively to browse the treatment menu and{' '}
+          <span className='font-bold'>book an appointment,</span> you can head
+          over to{' '}
           <span className='text-black font-bold cursor-pointer'>
             <Link
               href='https://www.fresha.com/a/emzy-aesthetics-nurse-beauty-therapist-wigan-all-over-beauty-7-ladies-lane-cpuy2tce'
@@ -72,8 +76,7 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col items-center justify-center text-xs sm:text-base md:text-xl z-10'>
-        <p>We look forward to showing off our new website soon.</p>
-        <p>Thank you for your patience.</p>
+        <p>Thank you for your patience & hope to see you soon.</p>
       </div>
 
       <div className='flex flex-col items-center justify-center pb-20 z-10'></div>
