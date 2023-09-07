@@ -41,7 +41,7 @@ export default function Home() {
           <span className='text-[#5383e2] font-bold cursor-pointer'>
             {' '}
             <Link
-              href='https://www.facebook.com/profile.php?id=100093526459994'
+              href='https://https://www.facebook.com/Emzynurseandbeauty'
               target='_blank'
             >
               Facebook
